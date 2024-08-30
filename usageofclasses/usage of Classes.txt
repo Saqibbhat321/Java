@@ -1,0 +1,8 @@
+A Class can used by other classes in 6 Different ways:->
+1. used as a Local variable
+2. as instance Variable
+3. as Static Variable
+4. as Parameter
+5. as Return type
+
+6. as Parent/Inheritance
