@@ -1,4 +1,4 @@
-package com.xworkz.standards.addressreposervice;
+package com.xworkz.standards.repository;
 
 public interface AddressRepo {
 

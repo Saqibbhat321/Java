@@ -1,4 +1,4 @@
-package com.xworkz.standards.addressreposervice;
+package com.xworkz.standards.service;
 
 public interface AddressService{
     boolean push();

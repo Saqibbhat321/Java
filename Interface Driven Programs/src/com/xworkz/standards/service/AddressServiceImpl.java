@@ -1,7 +1,6 @@
-package com.xworkz.standards.addrreposerviceimpl;
+package com.xworkz.standards.service;
 
-import com.xworkz.standards.addressreposervice.AddressRepo;
-import com.xworkz.standards.addressreposervice.AddressService;
+import com.xworkz.standards.repository.AddressRepo;
 
 public class AddressServiceImpl implements AddressService {
 

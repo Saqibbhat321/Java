@@ -1,9 +1,9 @@
 package com.xworkz.standards.runner;
 
-import com.xworkz.standards.addrreposerviceimpl.AddressRepoImpl;
-import com.xworkz.standards.addressreposervice.AddressRepo;
-import com.xworkz.standards.addressreposervice.AddressService;
-import com.xworkz.standards.addrreposerviceimpl.AddressServiceImpl;
+import com.xworkz.standards.repository.AddressRepoImpl;
+import com.xworkz.standards.repository.AddressRepo;
+import com.xworkz.standards.service.AddressService;
+import com.xworkz.standards.service.AddressServiceImpl;
 
 public class AddrRepoServiceRunner {
 
