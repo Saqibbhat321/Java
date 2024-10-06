@@ -1,0 +1,9 @@
+
+
+Rules for DTO Class
+
+1. Non-final Class
+2. Must implement Serializable(interface with no methods, also called as Marker Interface)
+3. No Argument constructor
+4. private variable declaration
+4. Getter and Setters
