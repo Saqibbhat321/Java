@@ -48,5 +48,8 @@ public class StatesOfIndia {
 
         List list = collection.stream().sorted().collect(Collectors.toList());
         System.out.println(list);
+        
+        System.out.println("descending order using foreach method");
+        collection.stream().sorted((ele1,ele2)->ele2.compareTo(ele1)).forEach(ref -> System.out.println("State Namae: "+ref));
     }
 }

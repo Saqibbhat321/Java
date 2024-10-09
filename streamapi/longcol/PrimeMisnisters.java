@@ -32,5 +32,9 @@ public class PrimeMisnisters {
 
         List lis =collection.stream().sorted().collect(Collectors.toList());
         System.out.println(lis);
+
+        
+        System.out.println("descending order using foreach method");
+        collection.stream().sorted((ele1,ele2)->ele2.compareTo(ele1)).forEach(ref -> System.out.println("President Name: "+ref));
     }
 }
