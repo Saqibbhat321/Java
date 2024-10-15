@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="com.xworkz" />
+      <sourceFolder url="file://$MODULE_DIR$/AssociationOfClasses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ClassWithLiteralandDefaultValues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Constructor(literal,ref,contr)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Object Oriented Programming" isTestSource="false" packagePrefix="com.xworkz" />
+      <sourceFolder url="file://$MODULE_DIR$/array with custom types (store and print)" isTestSource="false" packagePrefix="com.saqib" />
+      <sourceFolder url="file://$MODULE_DIR$/arrayForLoop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ifElseIf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/instances" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/method-Chaining" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/this Keyword" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="exceptionanderrors" />
+    <orderEntry type="module" module-name="Interface Driven Programs1" />
+    <orderEntry type="module" module-name="collections" />
+    <orderEntry type="module" module-name="encapsulation" />
+    <orderEntry type="module" module-name="enums" />
+    <orderEntry type="module" module-name="Object Oriented Programming" />
+    <orderEntry type="module" module-name="pizzaparty" />
+  </component>
+</module>

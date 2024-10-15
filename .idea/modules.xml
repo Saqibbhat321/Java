@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interface Driven Programs/src/Interface Driven Programs.iml" filepath="$PROJECT_DIR$/Interface Driven Programs/src/Interface Driven Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface Driven Programs/Interface Driven Programs1.iml" filepath="$PROJECT_DIR$/Interface Driven Programs/Interface Driven Programs1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object Oriented Programming/Object Oriented Programming.iml" filepath="$PROJECT_DIR$/Object Oriented Programming/Object Oriented Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/encapsulation/encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enums/enums.iml" filepath="$PROJECT_DIR$/enums/enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptionanderrors/exceptionanderrors.iml" filepath="$PROJECT_DIR$/exceptionanderrors/exceptionanderrors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pizzaparty/pizzaparty.iml" filepath="$PROJECT_DIR$/pizzaparty/pizzaparty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xWorks.iml" filepath="$PROJECT_DIR$/xWorks.iml" />
+    </modules>
+  </component>
+</project>
