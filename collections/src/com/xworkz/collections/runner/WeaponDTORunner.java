@@ -24,6 +24,7 @@ public class WeaponDTORunner {
         WeaponDTO weaponDTO8 = new WeaponDTO(8,"Steyr AUG","Austria",LocalDate.of(2025,5,10));
         WeaponDTO weaponDTO9 = new WeaponDTO(9,"Scar-L","Belgium",LocalDate.of(2050,5,10));
         WeaponDTO weaponDTO10 = new WeaponDTO(10,"Scar-L","Belgium",LocalDate.of(2010,5,10));
+        WeaponDTO weaponDTO11 = new WeaponDTO(10,"Scar-L","Belgium",LocalDate.of(2010,5,10));
 
 
 
@@ -37,23 +38,24 @@ public class WeaponDTORunner {
         weaponDTOSet.add(weaponDTO8);
         weaponDTOSet.add(weaponDTO9);
         weaponDTOSet.add(weaponDTO10);
+        weaponDTOSet.add(weaponDTO11);
         System.out.println("number of dtos "+weaponDTOSet.size());
 
         //2. Get all weapons where manfDate is greater than 2024
-        List<WeaponDTO> lessthan2024 =weaponDTOSet.stream().filter(md->md.getManfDate().getYear()<2024).collect(Collectors.toList());
+//        List<WeaponDTO> lessthan2024 =weaponDTOSet.stream().filter(md->md.getManfDate().getYear()<2024).collect(Collectors.toList());
 
         //3. Get all weapons where manfDate is less than 2024
-        List<WeaponDTO> morethan2024 = weaponDTOSet.stream().filter(md->md.getManfDate().getYear()>2024).collect(Collectors.toList());
+//        List<WeaponDTO> morethan2024 = weaponDTOSet.stream().filter(md->md.getManfDate().getYear()>2024).collect(Collectors.toList());
 
         //4. Get a weapon by id , use optional to check and retrieve
-        Optional<WeaponDTO> weaponById = weaponDTOSet.stream().filter(id->id.getId()==6).findFirst();
+//        Optional<WeaponDTO> weaponById = weaponDTOSet.stream().filter(id->id.getId()==6).findFirst();
 
         //5. Sort elements by id in desc order
-        List<WeaponDTO> sortedWeaponinDesc = weaponDTOSet.stream().sorted(Comparator.comparingInt(WeaponDTO::getId).reversed()).collect(Collectors.toList());
-        System.out.println("Weapons manufactured after 2024  "+lessthan2024);
-        System.out.println("Weapons manufactured before 2024  "+morethan2024);
-        weaponById.ifPresent(System.out::println);
+//        List<WeaponDTO> sortedWeaponinDesc = weaponDTOSet.stream().sorted(Comparator.comparingInt(WeaponDTO::getId).reversed()).collect(Collectors.toList());
+//        System.out.println("Weapons manufactured after 2024  "+lessthan2024);
+//        System.out.println("Weapons manufactured before 2024  "+morethan2024);
+//        weaponById.ifPresent(System.out::println);
 //        System.out.println("weapon by id: "+weaponById);
-        System.out.println("Weapons SOrted in Descending order by id: "+sortedWeaponinDesc);
+//        System.out.println("Weapons SOrted in Descending order by id: "+sortedWeaponinDesc);
     }
 }

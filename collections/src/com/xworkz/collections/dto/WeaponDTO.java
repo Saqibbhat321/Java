@@ -2,6 +2,7 @@ package com.xworkz.collections.dto;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class WeaponDTO implements Serializable {
 
@@ -44,7 +45,15 @@ public class WeaponDTO implements Serializable {
 
     @Override
     public int hashCode() {
-        System.out.println("hashcode");
-        return 758;
+        System.out.println("hascode method invoked");
+        return Objects.hash(name, countryMade, manfDate, id);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        WeaponDTO weaponDTO = (WeaponDTO) o;
+        return id == weaponDTO.id && Objects.equals(name, weaponDTO.name) && Objects.equals(countryMade, weaponDTO.countryMade) && Objects.equals(manfDate, weaponDTO.manfDate);
     }
 }
